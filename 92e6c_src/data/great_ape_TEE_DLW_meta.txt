@@ -1,0 +1,5 @@
+Metadata for "great_ape_TEE_DLW.csv". File contains individual-level data on mass and total energy expenditure in non-human great ape individuals (chimpanzees, gorillas, orangutans).
+
+Genus: Latin genus (Pan, Gorilla, Pongo) of the row.
+TEE_kcal: Total energy expenditure in kilocalories, as measured by doubly-labeled water.
+Mass_kg: Body mass in kilograms.

@@ -1,0 +1,17 @@
+Metadata for "summary_data.csv". Partially filled summary file which includes some information on variables compiled from non-primary data sources such as body masses, TEE for Hadza/Tsimane, daily energetic subsistence costs for non-human great apes, etc. -- an associated code file fills in remaining gaps in this table with estimates based on models and original data sources used in this paper. NOTE: Human data (for Tsimane and Hadza) are subject to a Materials Transfer Agreement and are not publicly available. Contact Michael Gurven (UCSB) and Brian Wood (UCLA) for more information.
+
+Species: species.
+Sex: sex.
+mass: Body mass in kilograms.
+TEE: Total energy expenditure in kilocalories, as measured by doubly-labeled water.
+TEE_high: Upper 95% CI of TEE.
+TEE_low: Lower 95% CI of TEE.
+cost: Energy cost of subsistence per day (in kcal).
+hi.cost: Upper 95% CI of cost.
+low.cost: Lower 95% CI of cost.
+prod: Daily energy acquired (in kcal).
+time_forage_and_moving: Time spent on subsistence activities per day (in hours). For non-human great apes this encompasses time spent foraging and moving between feeding sites. Comparable values for humans encompass the broad range of activities described in the main paper.
+hi.prod: Upper 95% CI of prod.
+low.prod: Lower 95% CI of prod.
+body_fat: Average percent body fat, expressed as a proportion.
+body_fat_ref: Reference study from which body fat % was derived.

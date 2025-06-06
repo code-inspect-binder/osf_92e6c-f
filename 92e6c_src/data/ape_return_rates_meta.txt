@@ -1,0 +1,11 @@
+Metadata for "ape_return_rates.xlsx". File contains compiled data from published studies on time spent on foraging activities by wild great apes.
+
+Species: Common species name.
+Subspecies: Latin name to subspecies when possible.
+Sex: sex.
+Site/population: Location of study.
+percent_time_feeding: Percent of daily active time spent feeding.
+percent_time_moving: Percent of daily active time spent moving between areas.
+time_spent_feeding: Minutes spent per day feeding (some studies report this as opposed to percentages).
+time_spent_moving: Minutes spent per day moving between areas (some studies report this as opposed to percentages).
+Source: Study from which estimates are derived.

@@ -1,0 +1,6 @@
+Metadata for "ape_wild_acquisition.xlsx". File contains compiled data from published studies on the daily energy intake of wild great apes.
+
+Species: Common species name.
+Sex: sex.
+Daily intake (kcal/d): Total daily energy intake in kilocalories, as measured from behavioral study.
+Study: Source of data (see supplemental table in main paper for full citation..

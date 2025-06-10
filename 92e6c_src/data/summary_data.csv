@@ -1,0 +1,11 @@
+Species,Sex,mass,TEE,TEE_high,TEE_low,cost,hi.cost,low.cost,prod,time_forage_and_moving,hi.prod,low.prod,body_fat,body_fat_ref
+Human (Hadza),male,51.00,2542.00,2897.00,2187.00,,,,,,,,0.135,pontzer_2012_plosone
+Human (Hadza),female,44.00,1939.00,2323.00,1555.00,,,,,,,,0.209,pontzer_2012_plosone
+Human (Tsimane),male,62.70,3065.00,3487.00,2643.00,,,,,,,,0.16,gurven_2016_rmr_20_39
+Human (Tsimane),female,51.40,2186.00,2552.00,1820.00,,,,,,,,0.264,gurven_2016_rmr_20_39
+chimpanzee,female,32.76,1517.36,1879.00,1225.32,166.65,225.94,107.38,1517.36,,1879.00,1225.32,0.09,pontzer_2016_metab_accel
+chimpanzee,male,40.38,1703.57,1966.54,1475.77,225.85,267.79,183.90,1703.57,,1966.54,1475.77,0.084,pontzer_2016_metab_accel
+gorilla,female,70.50,1845.08,2244.04,1517.06,168.24,,,1845.08,,2244.04,1517.06,0.139,pontzer_2016_metab_accel
+gorilla,male,170.40,3500.87,4435.85,2762.96,293.17,,,3500.87,,4435.85,2762.96,0.152,pontzer_2016_metab_accel
+orangutan,female,35.80,1177.97,1431.07,969.64,75.84,,,1177.97,,1431.07,969.64,0.234,pontzer_2016_metab_accel
+orangutan,male,78.50,1699.29,1876.51,1538.80,151.56,,,1699.29,,1876.51,1538.80,0.164,pontzer_2016_metab_accel

@@ -1,0 +1,25 @@
+This file gives an overview of the available scripts (in the R language) associated with Kraft et al. 2021. Note that the data inputs required to run these scripts are not publicly available and are subject to a Materials Transfer Agreement.
+
+1. great_ape_TEE.R: Generates regressions used to establish non-human great ape daily energy acquisition using TEE data measured using doubly-labeled water.
+
+2. tsimane_female_time_allocation_model.R: This file loads time allocation data for Tsimane women and applies a Bayesian multinomial model of behavior using rstan. At the end of each script samples are extracted from the posterior and saved for analysis.
+
+3. tsimane_male_time_allocation_model.R: This file loads time allocation data for Tsimane men and applies a Bayesian multinomial model of behavior using rstan. At the end of each script samples are extracted from the posterior and saved for analysis.
+
+4. hadza_female_time_allocation_model.R: This file loads time allocation data for Hadza women and applies a Bayesian multinomial model of behavior using rstan. At the end of each script samples are extracted from the posterior and saved for analysis.
+
+5. hadza_male_time_allocation_model.R: This file loads time allocation data for Hadza men and applies a Bayesian multinomial model of behavior using rstan. At the end of each script samples are extracted from the posterior and saved for analysis.
+
+6. hadza_returns_model.R: Runs Bayesian lognormal hurdle models on individual-level Hadza foraging data. Also includes prior and posterior predictive checks, and model comparison with alternative gamma hurdle model.
+
+7. analyze_scan_model_tsimane.R: This script takes as input the posterior samples generated from "tsimane_female_time_allocation_model.R" and "tsimane_male_time_allocation_model.R". The main function of this script is to process those samples in order to produce estimates of male and female Tsimane time devoted to different subsistence tasks on a daily basis.
+
+8. analyze_scan_model_hadza.R: This script takes as input the posterior samples generated from "hadza_female_time_allocation_model.R" and "hadza_male_time_allocation_model.R". The main function of this script is to process those samples in order to produce estimates of male and female Tsimane time devoted to different subsistence tasks on a daily basis.
+
+9. tsimane_combine_data.R: Combines time spent on different activities for Tsimane (from "analyze_scan_model_tsimane.R") with energetic costs associated with those activities to produce population level estimates of energy spent per day on different behaviors as a function of age and sex.
+
+10. hadza_combine_data.R: Combines time spent on different activities for Hadza(from "analyze_scan_model_hadza.R") with energetic costs associated with those activities to produce population level estimates of energy spent per day on different behaviors as a function of age and sex.
+
+11. fill_summary_table.R: This file takes outputs from other source files and combines them into a single dataset for use in producing results/figures reported in Kraft et al. 2021. The scaffolding for the completed dataset starts with a partially filled summary file ("summary_data.csv") which includes some information on variables compiled from other sources such as body masses, TEE for Hadza/Tsimane, daily energetic subsistence costs for non-human great apes, etc. -- this code file then fills in the gaps by summarising information from other models/datasets compiled for this analysis.
+
+12. figures_analysis.R: Produces most (but not all) of the main plots and statistical tests reported in the paper. Some other figures (such as the diagram in Figure 1) were not produced in R and are thus not included.
